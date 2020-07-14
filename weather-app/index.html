@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Application</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+
+  <body>
+        <!-- Search Bar Container  -->
+      <div class"container my-5">
+            <h1 class="text-center title">Weather in</h1>
+            <form class="search-location">
+                <input 
+                    type="text" 
+                    name="city" 
+                    placeholder="What city?" 
+                    autocomplete="off"
+                    class="form-control text-muted form-rounded p-4 shadow-sm"
+                />
+            </form>
+
+            <!-- List of Cities Card -->
+            <div class="card rounded my-3 shadow-lg back-card">
+                <div class="card-top text-center">
+                    <div class="city-name my-3">
+                        <p> San Fransico </p>
+                        <span>...</span>
+                    </div>
+                </div>
+            </div>
+           
+      </div>
+  </body>
+</html>
